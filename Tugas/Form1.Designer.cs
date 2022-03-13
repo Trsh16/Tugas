@@ -47,12 +47,12 @@
             // 
             this.txtBox1.Location = new System.Drawing.Point(12, 61);
             this.txtBox1.Name = "txtBox1";
-            this.txtBox1.Size = new System.Drawing.Size(516, 31);
+            this.txtBox1.Size = new System.Drawing.Size(465, 31);
             this.txtBox1.TabIndex = 1;
             // 
             // bttn_proses
             // 
-            this.bttn_proses.Location = new System.Drawing.Point(12, 108);
+            this.bttn_proses.Location = new System.Drawing.Point(12, 115);
             this.bttn_proses.Name = "bttn_proses";
             this.bttn_proses.Size = new System.Drawing.Size(112, 34);
             this.bttn_proses.TabIndex = 2;
@@ -63,10 +63,11 @@
             // label_empty
             // 
             this.label_empty.AutoSize = true;
-            this.label_empty.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_empty.Font = new System.Drawing.Font("Segoe UI", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_empty.ForeColor = System.Drawing.Color.Black;
             this.label_empty.Location = new System.Drawing.Point(12, 175);
             this.label_empty.Name = "label_empty";
-            this.label_empty.Size = new System.Drawing.Size(169, 54);
+            this.label_empty.Size = new System.Drawing.Size(145, 46);
             this.label_empty.TabIndex = 3;
             this.label_empty.Text = "[EMPTY]";
             // 
@@ -74,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 314);
+            this.ClientSize = new System.Drawing.Size(524, 279);
             this.Controls.Add(this.label_empty);
             this.Controls.Add(this.bttn_proses);
             this.Controls.Add(this.txtBox1);
